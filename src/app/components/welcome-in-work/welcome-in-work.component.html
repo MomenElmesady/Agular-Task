@@ -1,0 +1,16 @@
+<div class="welcome-message">
+  <h1>Search For Tasks</h1>
+  <p>Lets help you finish your work.</p>
+</div>
+
+<div class="action-button-container">
+  <button [routerLink]="['/work', { outlets: { Do: 'tasks' } }]" class="action-button">
+    Show Tasks
+  </button>
+</div>
+
+<div class="action-button-container">
+  <button [routerLink]="['/work', { outlets: { Do: 'users' } }]" class="action-button">
+    Users
+  </button>
+</div>

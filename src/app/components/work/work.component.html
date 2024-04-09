@@ -1,0 +1,17 @@
+<header>
+  <div class="container">
+    <h1>Do Your Tasks</h1>
+    <nav>
+      <ul>
+        <li><a routerLink="./">Home</a></li>
+        <li><a [routerLink]="[{ outlets: { Do: 'tasks' } }]">Show Tasks</a></li>
+        <li><a [routerLink]="[{ outlets: { Do: 'users' } }]">Users</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<hr />
+<br />
+
+<router-outlet name="Do"></router-outlet>

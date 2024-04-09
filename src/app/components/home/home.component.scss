@@ -1,0 +1,15 @@
+.gray-button {
+  background-color: #ccc;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  margin-right: 10px; /* Add margin between buttons */
+}
+
+.gray-button:hover {
+  background-color: #999;
+}

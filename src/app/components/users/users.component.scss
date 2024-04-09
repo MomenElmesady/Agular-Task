@@ -1,0 +1,32 @@
+// Styles for the user details container
+body {
+  margin-top: 200px; /* Adjust the value as needed */
+}
+
+.user-details {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+
+  // Styles for the user info sections
+  &__section {
+    margin-bottom: 10px;
+  }
+
+  // Styles for the user info labels
+  &__label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  // Styles for the user info values
+  &__value {
+    color: #333;
+  }
+
+  // Styles for the user picture
+  &__picture {
+    max-width: 200px;
+    border-radius: 50%;
+  }
+}

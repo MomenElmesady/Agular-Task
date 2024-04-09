@@ -1,0 +1,40 @@
+/* component-name.component.scss */
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f9f9f9; /* Light gray background */
+}
+
+li div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Center items vertically */
+}
+
+.title {
+  flex: 1; /* Grow to fill available space */
+}
+
+.userId {
+  color: #777; /* Dim the color of the userId */
+  margin-left: 10px; /* Add some space between title and userId */
+}
+
+input[type="checkbox"] {
+  margin-left: 10px; /* Add some space between userId and checkbox */
+}
+
+/* Styling for completed tasks */
+li.completed {
+  background-color: #dff0d8; /* Light green background for completed tasks */
+}
+
+li.completed .title {
+  text-decoration: line-through; /* Strikethrough for completed tasks */
+}
